@@ -12,20 +12,26 @@ This Python-based application generates hall tickets from an Excel file and send
 ## Installation 🔧
 1. **Clone this repository:**
    ```sh
+   
    git clone https://github.com/your-username/hall-ticket-generator.git
    cd hall-ticket-generator
+   
 2. **Install dependencies:**  
    ```sh
+   
    pip install -r requirements.txt
+   
 4. **Set up environment variables:**  
    - Create a .env file in the project root.
    - Add your email credentials:
-    ```sh  
+    ```sh
+    
    EMAIL_ADDRESS=your-email@gmail.com  
    EMAIL_PASSWORD=your-app-password
 
 5. **Run the application:**  
     ```sh
+    
    python hall_ticket_generator.py
 
 6. **Usage:**  
@@ -34,7 +40,8 @@ This Python-based application generates hall tickets from an Excel file and send
    - Check the log window for progress.
 
 7. **File Structure:**
-    ```sh  
+    ```sh
+     
    hall-ticket-generator/  
    │-- hall_ticket_generator.py   # Main script  
    │-- requirements.txt           # Dependencies  
@@ -52,6 +59,7 @@ This Python-based application generates hall tickets from an Excel file and send
    - smtplib  
    - dotenv  
    ```sh
+   
    Install them using:  
    pip install -r requirements.txt  
 
